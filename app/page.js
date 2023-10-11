@@ -12,16 +12,17 @@ export default function Home() {
             <a href="/" className="p-3 hover:bg-white hover:text-black hover:rounded-md transition-all duration-500">About</a>
           </div>
           <div className="flex basis-1/3 justify-end space-x-4">
-            <p className="border border-white p-3 rounded-md text-white">Log In</p>
-            <p className="bg-white p-3 rounded-md text-black">Sign Up</p>
+            <a href="/" className="border border-white p-3 rounded-md text-white">Log In</a>
+            <a href="/" className="bg-white p-3 rounded-md text-black">Sign Up</a>
           </div>
         </div>
       </header>
       <div className="flex flex-row justify-around p-24">
         <h1 className="flex-wrap text-7xl w-5/12">Your photos <h1 className="font-bold">Your memories</h1></h1>
-        <div className="p-5 basis-1/3 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-100 flex flex-col justify-between items-center">
+        <div className="p-5 basis-1/3 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-100 flex flex-col justify-between items-center text-center space-y-6">
           <h1 className="text-5xl font-bold">I have a <span className="">camera</span></h1>
-          <p>Hi I take cool pictures pay me please thanks very much have a good day</p>
+          <p>Hi I take cool pictures pay me please thanks very much have a good day. Would you like to buy my stuff? If so, great. Do that below please, thanks :)</p>
+          <a href="/" className="bg-white p-3 rounded-md text-black text-xl">Sign Up To Get Started</a>
         </div>
       </div>
     </div>
